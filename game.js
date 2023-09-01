@@ -30,11 +30,11 @@ function playRound(playerSelection, computerSelection){
     return "Empate"
   }else if (
     (playerSelection === "rock" &&
-    computerPlay === "scissors") ||
+    computerSelection === "scissors") ||
     (playerSelection === "paper" &&
     computerSelection === "rock") ||
     (playerSelection === "scissors" &&
-    computerPlay === "paper")
+    computerSelection === "paper")
     ){
         playerScore++;
         playerScoreEl.textContent = playerScore;
