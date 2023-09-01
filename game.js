@@ -27,7 +27,7 @@ function playRound(playerSelection, computerSelection){
 
   if(playerSelection === computerSelection){
 
-    return "Empate"
+    return "Tie"
   }else if (
     (playerSelection === "rock" &&
     computerSelection === "scissors") ||
